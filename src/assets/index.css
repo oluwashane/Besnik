@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;800&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .container {
+    @apply max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8;
+  }
+
+  h3 {
+    @apply text-base font-semibold pb-6;
+  }
+
+  h4 {
+    @apply text-lg font-semibold;
+  }
+
+  h2 {
+    @apply text-4xl font-semibold;
+  }
+
+  li {
+    @apply pb-4 hover:opacity-75 text-[#7A7A7E];
+  }
+}
